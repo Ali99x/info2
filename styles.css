@@ -93,15 +93,19 @@ color: white;
 
 
 h6 {
-    color: #ed790c; /* اللون الأصفر */
-    font-size: 14px; /* حجم الخط أصغر */
-   
-    padding: 5px; /* إضافة حواف للعنوان */
-    text-align: center;
-    margin-bottom: 2px; /* مسافة سفلية */
-      margin-top: 0px; /* مسافة سفلية */
-  
+  color: #ff009d; /* اللون */
+  font-size: 18px; /* حجم الخط أصغر */
+ 
+  padding: 10px; /* إضافة حواف للعنوان */
+
+  margin-bottom: 15px; /* مسافة سفلية */
+  margin-top: 0; /* مسافة علوية */
+  text-align: center; /* محاذاة النص */
 }
+
+
+
+
 
 
 
@@ -146,31 +150,27 @@ h6 {
    
 }
 
-.modal-content {
-    position: relative;
-    background: rgba(13, 13, 13);
-    border-radius: 10px;
-    padding: 30px; /* زيادة حجم النافذة */
-    width: 70%;
-    max-width: 600px;
-    margin: 50px auto;
-    animation: appearFromBook 0.5s ease-out;
+   strong {
+            display: block;
+           color: #ffc905; /* لون العنوان */
+           font-size: 14px !important;
+           direction: rtl; 
+        }
+
+
+
+ul {
+     direction: rtl; 
+   color: #feffd9; /* لون العنوان */
 }
 
-.modal-content h2 {
-       color: #ffd900; /* لون العنوان باللون الأبيض */
-
-        text-align: center; /* توسيط النصوص داخل النافذة */
-        background: rgba(255, 255, 255, 0.1); /* لون الخلفية مع الشفافية */
-    backdrop-filter: blur(8px); /* تأثير الضبابية */
-           border-radius: 5px; /* زوايا دائرية للخلفية */
- padding: 8px; /* إضافة حواف للعنوان */
-margin-bottom: 6px; /* مسافة سفلية */
-
-font-size: 16px !important; /* حجم النص مع استخدام !important */
-
-
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+  
 }
+
 
 .modal-content p {
     color: #ddd;   
@@ -186,31 +186,54 @@ direction: rtl;
     color: #fff; /* لون أيقونة الإغلاق */
 }
 
-@keyframes appearFromBook {
+.modal-content {
+    position: relative;
+    background: rgba(13, 13, 13);
+    border-radius: 10px;
+    padding: 30px; /* زيادة حجم النافذة */
+    width: 70%;
+    max-width: 600px;
+    margin: 50px auto;
+    animation: appearFromBook 0.5s ease-out;
+    overflow: auto;
+    height: auto;
+    max-height: 68vh;
+}
+
+
+
+
+@keyframes appearRotateIn {
     from {
-        transform: scale(0) rotateX(90deg);
+        transform: rotate(-45deg);
         opacity: 0;
     }
     to {
-        transform: scale(1) rotateX(0deg);
+        transform: rotate(0deg);
         opacity: 1;
     }
 }
 
-@keyframes disappearToBook {
+@keyframes disappearRotateOut {
     from {
-        transform: scale(1) rotateX(0deg);
+        transform: rotate(0deg);
         opacity: 1;
     }
     to {
-        transform: scale(0) rotateX(90deg);
+        transform: rotate(45deg);
         opacity: 0;
     }
+}
+
+.modal-content {
+    animation: appearRotateIn 0.5s ease-out;
 }
 
 .modal.hide .modal-content {
-    animation: disappearToBook 0.5s ease-out;
+    animation: disappearRotateOut 0.5s ease-out;
 }
+
+
 
 
 .menu-button {
