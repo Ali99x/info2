@@ -66,31 +66,102 @@ const infoSelect = document.getElementById('info-select');
 // معلومات النصوص
 const infoText = {
    
-   credit:`
-<h2>نظام كريديت</h2>
+   1:`
+
+<h6> ( العلاج الطبيعي ) </h6>
 
 <p>
-    <strong>تعريف النظام:</strong><br>
-    نظام الكريديت هو عملية حسابية لحساب معدل الطالب. يتم حساب معدل السادس بنسبة <strong>70%</strong>، بينما تشكل الـ <strong>30%</strong> المتبقية نسباً من مواد القسم المراد التقديم له.
+    العلاج الطبيعي هو فرع طبي يهتم بأداء الإنسان الوظيفي والحركي، ويسهم في تطوير الصحة العامة. يهدف العلاج الطبيعي إلى استعادة أو تحسين القدرات الجسدية للفرد، ويعمل على تخفيف آثار المرض والآلام دون الحاجة للتدخل الجراحي. تستمر مدة الدراسة في هذا المجال لأربع سنوات، ويمكن للطالب الأول في المرحلة الأولى الانتقال إلى كلية الطب العام.
 </p>
 
 <p>
-    <strong>مثال على التطبيق:</strong><br>
-    على سبيل المثال، قسم الهندسة الميكانيكية يعتمد على مواد مثل الإنجليزية، الرياضيات، والفيزياء.
+    حتى دفعة 2020-2021، كان نظام الدراسة يعتمد على الكورسات، لكنه تحول إلى نظام بولونيا للدفعات الجديدة.
 </p>
 
+<strong>برنامج وخطة العلاج</strong>
 <p>
-    <strong>التقديم الإلكتروني:</strong><br>
-    لا يحتاج الطالب لحساب معدله لكل قسم، حيث يتم التقديم إلكترونياً. عند اختيار الطالب للقسم، يظهر الموقع معدله وفق نظام الكريديت.
+    تبدأ عملية العلاج الطبيعي بتقييم وفحص وتشخيص حالة المريض من قبل المعالج. تشمل العلاجات المستخدمة ما يلي:
 </p>
+<ul>
+    <li>التمارين الرياضية (تمارين تقوية، الإطالة، وغيرها)</li>
+    <li>الأجهزة الكهربائية (مثل Ultrasound, TENS, Laser)</li>
+    <li>العلاج الحراري</li>
+    <li>العلاج اليدوي</li>
+    <li>الإبر الصينية</li>
+    <li>استخدام المساج</li>
+</ul>
+<p><strong>ملاحظة:</strong> العلاج الطبيعي ليس مساجًا فقط.</p>
 
-<p>
+<strong>تخصصات العلاج الطبيعي</strong>
+<ul>
+    <li>Musculoskeletal Physiotherapy</li>
+    <li>Neurology Physiotherapy</li>
+    <li>Cardiorespiratory Physiotherapy</li>
+    <li>Pediatric Physiotherapy</li>
+    <li>Sports Physiotherapy</li>
+    <li>Geriatric Physiotherapy</li>
+    <li>Rehabilitation and Pain Management</li>
+</ul>
 
-يمكن تطبيقه في الجامعات الأهلية أيضاً.
-</p>
+<strong>أماكن العمل</strong>
+<ul>
+    <li>المستشفيات</li>
+    <li>مراكز إعادة التأهيل</li>
+    <li>الزيارات المنزلية</li>
+    <li>صالات الرياضة</li>
+</ul>
 
+<strong>مواد السنة الأولى (كورس الأول والثاني)</strong>
+<ul>
+    <li>English Language and Medical Terminology</li>
+    <li>Human Anatomy</li>
+    <li>Human Physiology</li>
+    <li>Academic Debates</li>
+    <li>Computer Studies</li>
+    <li>Kurdish Studies</li>
+    <li>Basic Life Support</li>
+    <li>Fundamentals of Physiotherapy</li>
+</ul>
 
+<strong>مواد السنة الثانية (كورس الأول والثاني)</strong>
+<ul>
+    <li>Human Anatomy</li>
+    <li>Human Physiology</li>
+    <li>Biomechanics</li>
+    <li>Fundamentals of Physiotherapy</li>
+    <li>Orthotics & Prosthetics</li>
+    <li>Psychology</li>
+    <li>Patient Safety</li>
+    <li>Communication Skills</li>
+    <li>Musculoskeletal Physiotherapy</li>
+    <li>Pharmacology</li>
+    <li>Pathophysiology</li>
+    <li>Sociology</li>
+</ul>
 
+<strong>مواد السنة الثالثة (كورس الأول والثاني)</strong>
+<ul>
+    <li>Musculoskeletal Physiotherapy</li>
+    <li>Cardiopulmonary Physiotherapy</li>
+    <li>Neurology Physiotherapy</li>
+    <li>Electro & Radio Therapy</li>
+    <li>Nutrition & Diet Therapy</li>
+    <li>Ethics</li>
+    <li>Pediatric Physiotherapy</li>
+    <li>Biostatistics</li>
+    <li>Research Methods</li>
+    <li>Clinical Placement</li>
+</ul>
+
+<strong>مواد السنة الرابعة</strong>
+<ul>
+    <li>Medical Rehabilitation</li>
+    <li>Clinical Placement</li>
+    <li>Instrumental Therapy</li>
+    <li>Sports Therapy</li>
+    <li>Research Project</li>
+    <li>Evidence-Based Physiotherapy</li>
+</ul>
 
 
 
