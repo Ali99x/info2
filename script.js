@@ -163,6 +163,86 @@ const infoText = {
     <li>Evidence-Based Physiotherapy</li>
 </ul>
 
+`,
+   2:`
+
+<h6>(علوم البيئة والصحة)</h6>
+
+<p>يُعتبر تخصص علوم البيئة والصحة من التخصصات المتاحة في العديد من الجامعات، مثل:</p> <ul>
+    <li>جامعة صلاح الدين</li>
+    <li>جامعة زاخو</li>
+    <li>جامعة حلبجة</li>
+    <li>جامعة السليمانية</li>
+    <li>بالإضافة إلى العديد من الجامعات الحكومية والخاصة الأخرى.</li>
+</ul>
+
+<p>في جامعة صلاح الدين، يمتد برنامج هذا التخصص لأربع سنوات حتى التخرج، وهو مناسب للطلاب الراغبين في تعزيز مهاراتهم في التمريض وفهم الجوانب المتعلقة بالماء، الهواء، التربة، بالإضافة إلى الكائنات الحية وغير الحية. يُتاح للخريجين فرص العمل في المستشفيات، شركات النفط، وكذلك كمراقبي بيئة.</p>
+
+<p>يحتاج الطلاب في هذا التخصص إلى معدل يتراوح بين 60 إلى 75. يُعتمد نظام الكورسات في التدريس، حيث يتم تقديم مواد دراسية مختلفة في كل كورس من السنة الدراسية. يتم تدريس المواد عادةً باللغة الإنجليزية، ولكن لغة الشرح قد تختلف حسب الأستاذ، وقد تكون الكردية السورانية، العربية، أو الإنجليزية.</p>
+
+<p>يمكن للطلاب الناجحين في هذا التخصص التقدم إلى قسم هندسة السدود بشرط توافر الشروط التالية:</p>
+<ul>
+    <li>أن يكون الطالب الأول في دفعته.</li>
+    <li>أن يكون معدله عاليًا، غالبًا 75 أو أكثر، مع إمكانية التغيير حسب قرارات الجامعة.</li>
+</ul>
+
+<p><strong>مواد السنة الأولى:</strong></p>
+<ul>
+    <li>Principles of Environmental Science</li>
+    <li>Zoology</li>
+    <li>Kurdology</li>
+    <li>Public Health</li>
+    <li>Analytical Chemistry</li>
+    <li>English</li>
+    <li>Academic Skills</li>
+    <li>Botany</li>
+    <li>Environmental Awareness</li>
+    <li>Natural Products</li>
+    <li>Computer Skills</li>
+</ul>
+
+<p><strong>مواد السنة الثانية:</strong></p>
+<ul>
+    <li>Water Microbiology</li>
+    <li>Meteorology</li>
+    <li>Limnology</li>
+    <li>Ecostatistics</li>
+    <li>Biodiversity</li>
+    <li>Soil Microbiology</li>
+    <li>Environmental Radiation</li>
+    <li>Phycology</li>
+    <li>Environmental Indices</li>
+    <li>Insect Ecology</li>
+</ul>
+
+<p><strong>مواد السنة الثالثة:</strong></p>
+<ul>
+    <li>Water Pollution</li>
+    <li>Environmental Toxicity</li>
+    <li>HSE (Health, Safety, Environmental)</li>
+    <li>Petroleum Science</li>
+    <li>Environmental Engineering</li>
+    <li>Air Pollution</li>
+    <li>Waste Management</li>
+    <li>Industrial Hygiene</li>
+    <li>Instrumental Analysis</li>
+    <li>Forest Ecology</li>
+</ul>
+
+<p><strong>مواد السنة الرابعة:</strong></p>
+<ul>
+    <li>Human Physiology</li>
+    <li>Molecular Biology</li>
+    <li>Soil Sciences</li>
+    <li>Environmental Impact Assessment</li>
+    <li>Geographical Information System</li>
+    <li>Research Project</li>
+</ul>
+
+
+
+
+
 
 
 
