@@ -107,6 +107,7 @@ h6 {
 p {
      direction: rtl;
     color: white; /* لون النص */
+     margin-bottom: 10px;
 
 }
 
