@@ -197,7 +197,7 @@ li {
 .modal-content {
     position: relative;
     background: rgba(33, 33, 33);
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 30px;
     width: 70%;
     max-width: 600px;
