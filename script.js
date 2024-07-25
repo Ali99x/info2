@@ -522,9 +522,98 @@ const infoText = {
 </p>
 
 
+`,
+
+7:`
 
 
+<h6>هندسة الطيران</h6>
 
+<p><strong>تعريف التخصص</strong><br>
+يهدف إلى إعداد خريجين ومهندسي طيران قادرين على إنجاز مختلف المهام المتعلقة بهندسة الطيران، مثل تصميم الطائرات، والتحكُّم بالطائرات، وأنظمة الدفع، والنظم الكهروميكانيكية. يُعَدُّ هذا التخصص مهمًا في تطوير وتحسين تقنيات الطيران.</p>
+
+<p><strong>مدة الدراسة</strong><br>
+تستغرق دراسة تخصص هندسة الطيران أربع سنوات، وتنقسم كالتالي:</p>
+<ul>
+    <li>السنة الأولى ونصف السنة الثانية: تتم الدراسة داخل جامعة صلاح الدين في أربيل.</li>
+    <li>النصف الثاني من السنة الثانية والسنة الثالثة والرابعة: ينتقل الطالب إلى أكاديمية الطيران الأردنية الهاشمية في الأردن لإكمال الدراسة.</li>
+</ul>
+
+<p><strong>المواد الدراسية</strong></p>
+<p><strong>السنة الأولى</strong></p>
+<ul>
+    <li>Mathematics 1</li>
+    <li>Physics</li>
+    <li>English</li>
+    <li>Aviation safety</li>
+    <li>Descriptive geometry</li>
+    <li>Kurdology</li>
+    <li>Mathematics 2</li>
+    <li>Philosophy</li>
+    <li>Thermodynamics</li>
+    <li>Electric</li>
+    <li>Aviation fuel</li>
+    <li>Engineering mechanics</li>
+</ul>
+<p><strong>السنة الثانية</strong></p>
+<ul>
+    <li>Aerodynamic</li>
+    <li>Aircraft design and maintenance</li>
+    <li>Aircraft performance</li>
+    <li>Aviation security</li>
+    <li>Flow detection</li>
+    <li>Fluid mechanics</li>
+    <li>Fundamental of aviation management</li>
+    <li>History of aviation</li>
+</ul>
+<p><strong>السنة الثالثة</strong></p>
+<ul>
+    <li>Aviation Mathematics</li>
+    <li>Aviation Physics</li>
+    <li>Electrical Fundamentals</li>
+    <li>Electronics Fundamentals</li>
+    <li>Digital techniques</li>
+    <li>Materials & hardware</li>
+    <li>Maintenance practices</li>
+    <li>Basic Aerodynamic</li>
+</ul>
+<p><strong>السنة الرابعة</strong></p>
+<ul>
+    <li>Human factors</li>
+    <li>Aviation legislation</li>
+    <li>Turbine Aeroplane Aerodynamics, Structures and systems</li>
+    <li>Gas Turbine engine</li>
+    <li>Propellers</li>
+</ul>
+
+<p><strong>المؤهلات العلمية</strong></p>
+<ul>
+    <li>فهم العمليات الميكانيكية</li>
+    <li>مسار علمي في الثانوية العامة</li>
+    <li>مستوى جيد في الرياضيات والكيمياء والفيزياء</li>
+    <li>معدل جيد في الثانوية العامة</li>
+    <li>فهم جيد للديناميكا الهوائية والديناميكا الحرارية</li>
+    <li>مهارات الـ STEM: العلوم، والتكنولوجيا، والهندسة، والرياضيات</li>
+</ul>
+
+<p><strong>المهارات الشخصية</strong></p>
+<ul>
+    <li>حل المشاكل</li>
+    <li>مهارات التحليل</li>
+    <li>اهتمام عالٍ بالتفاصيل</li>
+    <li>الدقة والكفاءة والأمانة</li>
+    <li>لياقة بدنية وصحة جسدية عالية</li>
+    <li>تبسيط الأمور وشرح المسائل المعقدة</li>
+    <li>القدرة على العمل تحت ضغط واتخاذ القرارات المنطقية بسرعة</li>
+    <li>مهارات تواصل ممتازة والعمل ضمن فريق</li>
+    <li>قوة نظر وعدم وجود مرض عمى الألوان</li>
+</ul>
+
+<p><strong>سلبيات القسم</strong></p>
+<ul>
+    <li>التكاليف العالية: الدراسة في هذا التخصص تحتاج إلى تكاليف مرتفعة قد لا يتحملها العديد من الطلاب.</li>
+    <li>الحصول على درجة B1: بعد التخرج، لا يستطيع الخريج الحصول على درجة B1 التي تسمح له بالتوظف إلا بعد سنتين. غالبًا ما يعمل الخريجون كمتدربين بشكل مجاني حتى يحصلوا على درجة B1، وبعد ذلك يصبح العمل مستقرًا مع رواتب عالية.</li>
+</ul>
 
 
 
