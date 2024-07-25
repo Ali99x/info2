@@ -1,0 +1,340 @@
+/* تنسيقات عامة */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    overflow: hidden;
+}
+
+    /* منع تحديد النصوص */
+body {
+    user-select: none; /* لجميع المتصفحات الحديثة */
+}
+
+/* خاصية لتصحيح عرض النصوص في بعض المتصفحات */
+body {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge */
+    user-select: none;         /* جميع المتصفحات الحديثة */
+}
+
+
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #08010f  0%, #130221 50%, #21043b 100%);
+    z-index: 0;
+}
+
+.stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* تنسيقات صندوق الاختيار */
+
+.selection-container {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 30px; /* زيادة حجم الصندوق */
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 800px; /* زيادة عرض الصندوق */
+}
+
+
+h3 {
+    color: #c847ff; /* اللون الأصفر */
+    font-size: 14px; /* حجم الخط أصغر */
+    background: rgba(0, 0, 0, 0.1); /* خلفية خفيفة */
+    padding: 10px; /* إضافة حواف للعنوان */
+    border-radius: 5px; /* زوايا دائرية للخلفية */
+    margin-bottom: 15px; /* مسافة سفلية */
+      margin-top: 0px; /* مسافة سفلية */
+}
+
+
+h4 {
+    color: #ed790c; /* اللون الأصفر */
+    font-size: 12px; /* حجم الخط أصغر */
+   
+    padding: 1px; /* إضافة حواف للعنوان */
+  
+    margin-bottom: 1x; /* مسافة سفلية */
+      margin-top: 0px; /* مسافة سفلية */
+      direction:rtl;
+}
+
+
+h5 {
+color: white;
+    font-size: 16px; /* حجم الخط أصغر */
+   
+    padding: 5px; /* إضافة حواف للعنوان */
+   
+    margin-bottom: 4x; /* مسافة سفلية */
+      margin-top: 0px; /* مسافة سفلية */
+  text-align: center;
+
+}
+
+
+h6 {
+    color: #ed790c; /* اللون الأصفر */
+    font-size: 14px; /* حجم الخط أصغر */
+   
+    padding: 5px; /* إضافة حواف للعنوان */
+    text-align: center;
+    margin-bottom: 2px; /* مسافة سفلية */
+      margin-top: 0px; /* مسافة سفلية */
+  
+}
+
+
+
+.selection-container h2 {
+    color: #fff; /* لون العنوان باللون الأبيض */
+    margin-bottom: 15px;
+   
+}
+
+
+.selection-container p {
+    color: #fff; /* لون النص باللون الأبيض */
+    margin-bottom: 20px;
+}
+
+/* صندوق الاختيار */
+#info-select {
+    width: 100%;
+    padding: 15px; /* زيادة حجم الصندوق */
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+      direction: rtl;
+}
+
+/* تنسيقات النافذة المنبثقة */
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.modal-content {
+    position: relative;
+    background: rgba(13, 13, 13);
+    border-radius: 10px;
+    padding: 30px; /* زيادة حجم النافذة */
+    width: 70%;
+    max-width: 600px;
+    margin: 50px auto;
+    animation: appearFromBook 0.5s ease-out;
+}
+
+.modal-content h2 {
+       color: #ffd900; /* لون العنوان باللون الأبيض */
+
+        text-align: center; /* توسيط النصوص داخل النافذة */
+        background: rgba(255, 255, 255, 0.1); /* لون الخلفية مع الشفافية */
+    backdrop-filter: blur(8px); /* تأثير الضبابية */
+           border-radius: 5px; /* زوايا دائرية للخلفية */
+ padding: 8px; /* إضافة حواف للعنوان */
+margin-bottom: 6px; /* مسافة سفلية */
+
+font-size: 16px !important; /* حجم النص مع استخدام !important */
+
+
+}
+
+.modal-content p {
+    color: #ddd;   
+direction: rtl; 
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #fff; /* لون أيقونة الإغلاق */
+}
+
+@keyframes appearFromBook {
+    from {
+        transform: scale(0) rotateX(90deg);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1) rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes disappearToBook {
+    from {
+        transform: scale(1) rotateX(0deg);
+        opacity: 1;
+    }
+    to {
+        transform: scale(0) rotateX(90deg);
+        opacity: 0;
+    }
+}
+
+.modal.hide .modal-content {
+    animation: disappearToBook 0.5s ease-out;
+}
+
+
+.menu-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+    color: white;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 50px;
+    transition: right 0.3s ease;
+    z-index: 1000;
+}
+
+.side-menu.open {
+    right: 0;
+}
+
+.side-menu button {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    text-align: right;
+    border: none;
+    border-bottom: 1px solid #555;
+    transition: background-color 0.3s ease;
+}
+
+.side-menu button:hover {
+    background-color: #ffc400;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+ 
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+     color: #1890db;
+}
+
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.icon {
+    width: 60px; /* حجم الأيقونة، يمكنك تعديله حسب الحاجة */
+    height: 60px; /* حجم الأيقونة، يمكنك تعديله حسب الحاجة */
+    animation: swing 2s infinite;
+}
+
+@keyframes swing {
+    20% {
+        transform: rotate(15deg);
+    }
+    40% {
+        transform: rotate(-10deg);
+    }
+    60% {
+        transform: rotate(5deg);
+    }
+    80% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+
+.welcome-message {
+    position: fixed;
+    top: -50px; /* بدء الرسالة خارج الشاشة */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333; /* لون الخلفية */
+    color: #fff; /* لون النص */
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    z-index: 1000;
+    transition: top 0.5s ease-in-out; /* حركة النزول */
+}
+
+.show {
+    top: 20px; /* الموقع النهائي للرسالة */
+}
+
+.hide {
+    top: -200px; 
+}
