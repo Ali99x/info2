@@ -67,6 +67,11 @@ h3 {
 }
 
 
+
+  .footer-text {
+  direction: ltr;
+  }
+
 h4 {
     color: #ed790c; /* اللون الأصفر */
     font-size: 12px; /* حجم الخط أصغر */
@@ -318,7 +323,6 @@ footer a:hover {
     text-decoration: underline;
      color: #1890db;
 }
-
 
 .icon-container {
     display: flex;
