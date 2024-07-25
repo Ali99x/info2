@@ -1214,6 +1214,71 @@ const infoText = {
 
 
 
+`,
+
+15:`
+
+<h6>علوم الكمبيوتر (CS)</h6>
+
+<p><strong>وصف القسم:</strong> يعد قسم علوم الكمبيوتر خيارًا ممتازًا للطلاب الراغبين في تطوير مهاراتهم في مجال الحوسبة، بما في ذلك البرمجة، الخوارزميات، تطوير التطبيقات، والشبكات. يهدف البرنامج إلى تعزيز قدرات الطلاب في البرمجة من الأساسيات إلى المستوى المتقدم، ويتيح لهم بناء مهارات قوية في هذا المجال.</p>
+
+<p><strong>معدل القبول:</strong> يتطلب البرنامج معدلًا يقارب 80%.</p>
+
+<p><strong>نظام الدراسة:</strong> يتبع البرنامج نظام الكورسات، حيث تتضمن كل دورة دراسية مواد مختلفة على مدار السنة الدراسية. تُدرس المواد باللغة الإنجليزية، ولكن قد يختلف شرح المحاضرات حسب الدكتور، حيث يمكن أن يكون باللغة الكردية السورانية أو العربية أو الإنجليزية.</p>
+
+<p><strong>فرص الترفيع:</strong> يمكن للطلاب المتفوقين أن يُرفعوا إلى قسم هندسة البرمجيات بشرط أن يكونوا من الأوائل وأن يكون معدلهم عاليًا، غالبًا ما يتطلب المعدل 80% ولكن يمكن أن يتغير حسب قرارات الجامعة.</p>
+
+<p><strong>مواد السنة الأولى:</strong></p>
+<ul>
+    <li>Programming Fundamentals</li>
+    <li>Academic Debate</li>
+    <li>Mathematics</li>
+    <li>Digital Logic</li>
+    <li>Principles of IT</li>
+    <li>Discrete Structure</li>
+    <li>English for University Students</li>
+    <li>Academic Skills</li>
+</ul>
+
+<p><strong>مواد السنة الثانية:</strong></p>
+<ul>
+    <li>Discrete Structure</li>
+    <li>Computer Arch & Microcontroller</li>
+    <li>Database Design</li>
+    <li>Numerical Methods</li>
+    <li>OOP: Oriented Object Programming</li>
+    <li>Linear Algebra & Statistics</li>
+    <li>System Analysis</li>
+    <li>Computation Theory</li>
+    <li>Microprocessor</li>
+</ul>
+
+<p><strong>مواد السنة الثالثة:</strong></p>
+<ul>
+    <li>Web Programming</li>
+    <li>Expert System</li>
+    <li>Adv. Database</li>
+    <li>Compiler Construction</li>
+    <li>Networks Fundamentals</li>
+    <li>GUI: Graphical User Interface</li>
+</ul>
+
+<p><strong>مواد السنة الرابعة:</strong></p>
+<ul>
+    <li>Image Processing</li>
+    <li>Coding and Cryptography</li>
+    <li>Computer Graphics</li>
+    <li>OS: Operating System</li>
+    <li>SOA: Service-Oriented Architecture and Semantic Web</li>
+    <li>Design and Analysis of Algorithms</li>
+    <li>AI: Artificial Intelligence</li>
+    <li>Research and Graduation Project</li>
+</ul>
+
+
+
+
+
   `
 };
 
