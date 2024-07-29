@@ -211,7 +211,7 @@ select::-ms-expand {
 /* ضبط مكان السهم على الشاشات الصغيرة */
 @media (max-width: 600px) {
     #info-select {
-        background-position: calc(100% - 220px) center; /* تعديل مكان الأيقونة للشاشات الصغيرة */
+        background-position: calc(100% - 205px) center; /* تعديل مكان الأيقونة للشاشات الصغيرة */
     }
 }
 
