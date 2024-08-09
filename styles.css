@@ -344,7 +344,7 @@ a {
 
 
 
-.menu-button {
+..menu-button {
     position: fixed;
     top: 20px;
     right: 20px;
@@ -389,8 +389,9 @@ a {
 }
 
 .side-menu button:hover {
-    background-color: #ffc400;
+    background-color: #6e6e6e;
 }
+
 
 
 
